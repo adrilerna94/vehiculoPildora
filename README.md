@@ -1,4 +1,4 @@
-# PildoraPOOCSharp
+# Vehículo POO Ejercicio
 Este proyecto de ejemplo ilustra los conceptos fundamentales de la programación orientada a objetos (POO) en C#. Cubre temas como herencia, polimorfismo, abstracción, clases abstractas, interfaces, métodos getter y setter, uso de constructores, entre otros.
 ## Estructura del Proyecto
 El proyecto consta de tres clases principales:
