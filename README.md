@@ -23,12 +23,30 @@ El proyecto consta de tres clases principales:
 ### Constructor
 - Se utiliza un constructor en cada clase para inicializar propiedades específicas al crear instancias de objetos.
 ## SET UP
-### Clona el Repositorio
-`git clone https://github.com/adrilerna94/pildoraPOOCSharp`
-### Compilar y Ejecutar
+### 1. Clona el Repositorio
+```
+git clone https://github.com/adrilerna94/pildoraPOOCSharp
+```
+### 2. Crea el Proyecto
+
+2.1 **Creamos el Solution File**: contenedor que agrupa 1 o + proyectos
+```
+dotnet new sln -n NameSolution
+```
+2.2 **Creamos nuestro proyecto de Consola**
+```
+dotnet new console -n MiProyecto
+```
+### 3. Compila y Ejecuta
 Para compilar y ejecutar tu proyecto en Visual Studio Code, puedes usar la terminal integrada o el terminal de tu sistema operativo. Aquí hay algunos comandos comunes que podrías usar:
-- `dotnet build`: Compila el proyecto.
-- `dotnet run`: Compila y ejecuta la aplicación.
+- **Compila el proyecto:**
+  ```
+  dotnet build
+  ```
+- **Compila y ejecuta la aplicación:**
+  ```
+  dotnet run
+  ```
 ### Explorar el Código
 Explore las clases y métodos para comprender cómo se implementan los conceptos de programación orientada a objetos en C#.
 ## SUGERENCIAS
