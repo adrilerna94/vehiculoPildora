@@ -37,18 +37,26 @@ dotnet new sln -n NameSolution
 ```
 dotnet new console -n MiProyecto
 ```
-### 3. Compila y Ejecuta
+
+### 3. Crea los directorios
+```
+mkdir nombredirectorio
+```
+
+### 4. Crea las clases
+```
+  dotnet new class -n NombreClase
+```
+### 5. Compila y Ejecuta
 Para compilar y ejecutar tu proyecto en Visual Studio Code, puedes usar la terminal integrada o el terminal de tu sistema operativo. Aquí hay algunos comandos comunes que podrías usar:
-- **Compila el proyecto:**
-  ```
-  dotnet build
-  ```
-- **Compila y ejecuta la aplicación:**
-  ```
-  dotnet run
-  ```
+
+**Compila y ejecuta la aplicación: Recuerda estar en el directorio principal**
+```
+ dotnet run
+```
 ### Explorar el Código
 Explore las clases y métodos para comprender cómo se implementan los conceptos de programación orientada a objetos en C#.
+
 ## SUGERENCIAS
 **KEEP CALM & ENJOY**
 
